@@ -1,6 +1,6 @@
 import random
 
-word_list = ["python", "apple", "train", "chair", "cloud"]
+word_list = ["python", "apple", "train", "chair", "cloud","coding"]
 word = random.choice(word_list)
 
 guessed_letters = []
@@ -15,14 +15,12 @@ while attempts > 0 and "_" in display:
 
     guess = input("Enter a letter: ").lower()
 
-    # Check if already guessed
     if guess in guessed_letters:
         print("⚠️ Already guessed!")
         continue
 
     guessed_letters.append(guess)
 
-    # Correct guess
     if guess in word:
         print("✅ Correct!")
 
