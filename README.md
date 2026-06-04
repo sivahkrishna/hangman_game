@@ -19,3 +19,6 @@ This is a simple text-based Hangman game developed using Python. The player gues
 2. Guess one letter at a time
 3. You have 6 incorrect attempts
 4. Guess the full word before attempts run out
+
+##
+##
